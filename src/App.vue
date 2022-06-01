@@ -43,9 +43,6 @@ footer {
 main {
   height: 70%;
 }
-header span {
-  padding: 0 20px;
-}
 header.Menu-superior {
   display: flex;
   justify-content: space-between;
