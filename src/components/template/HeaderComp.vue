@@ -1,26 +1,26 @@
 <template>
-  <header class="Menu-superior">
-    <div class="Menu-esquerdo">
-      <RouterLink to="/">Home</RouterLink>
+  <header class="menu-superior">
+    <div class="menu-esquerda">
+      <span><RouterLink to="/">Home</RouterLink></span>
       <span>|</span>
-      <RouterLink to="/Time">Time</RouterLink>
+      <span><RouterLink to="/jogadores">Jogadores</RouterLink></span>
       <span>|</span>
-      <RouterLink to="/Jogadores">Jogadores</RouterLink>
-      <span>|</span>
+      <span><RouterLink to="/times">Times</RouterLink></span>
     </div>
-    <div class="Menu-direito">
-      <span class="sair"><RouterLink to="/">Sair</RouterLink></span>
+    <div class="menu-direito">
+      <span>Sair</span>
     </div>
   </header>
-  <!-- <main></main> -->
-  <!-- <footer>rodape</footer> -->
 </template>
+
 <style>
 header span {
-  padding: 0 20px;
+  padding: 0px 20px;
 }
 
-.menusuperior {
+header.menu-superior {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 </style>

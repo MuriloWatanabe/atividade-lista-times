@@ -1,9 +1,11 @@
 <template>
-  <h1 id="titulo">Bem Vindo</h1>
+  <main>Bem-vindo!</main>
 </template>
 
-<style>
-#titulo {
-  text-align: center;
+<style scoped>
+header.menu-superior {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 </style>

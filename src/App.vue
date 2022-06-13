@@ -1,14 +1,19 @@
 <script setup>
-import HeaderComp from "@/components/template/HeaderComp.vue";
+import HeaderCompVue from "@/components/template/HeaderComp.vue";
+import RodapeCompVue from "./components/template/RodapeComp.vue";
 </script>
+
 <template>
-  <HeaderComp />
+  <HeaderCompVue />
   <main>
     <RouterView />
   </main>
+  <RodapeCompVue />
 </template>
+
 <style>
 @import "@/assets/base.css";
+@import "@/assets/style.css";
 
 #app {
   max-width: 1280px;
